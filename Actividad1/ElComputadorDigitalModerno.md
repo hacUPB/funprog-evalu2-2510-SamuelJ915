@@ -4,6 +4,7 @@
 Según la RAE, un computador es una máquina electrónica capaz de realizar un tratamiento automático de la información y de resolver con gran rapidez problemas matemáticos y lógicos mediante programas informáticos.
 
 ![alt text](image.png)
+
 Fuente: [Compudator segun la RAE](https://www.rae.es/dpd/computador)
 
 ## Arquitecturas de un computador: CISC y RISC
@@ -28,25 +29,29 @@ A diferencia de RISC, los procesadores CISC utilizan un conjunto de instruccione
 
 La CPU es el componente principal que procesa las señales y hace posible la computación. Actúa como el cerebro de cualquier dispositivo de computación. Obtiene instrucciones de la memoria, realiza las tareas necesarias y envía la salida a la memoria. Maneja todo tipo de tareas de computación necesarias para que el sistema operativo y las aplicaciones se ejecuten.
 
-    - ALU. Definición y función.
+- ALU. Definición y función.
 
     La unidad aritmética lógica (ALU) realiza operaciones aritméticas básicas (suma, resta, multiplicación y división) y operaciones lógicas (AND, OR, y NOT) sobre los datos. Recibe datos de los registros de la CPU, los procesa según las instrucciones de la unidad de control y produce el resultado.
 
-    - Unidad de control. Definición y función.
+- Unidad de control. Definición y función.
 
     La unidad de control gestiona el procesamiento de instrucciones y coordina el flujo de datos dentro de la CPU y entre otros componentes del ordenador. Tiene un componente decodificador de instrucciones que interpreta las instrucciones extraídas de la memoria y las convierte en micro operaciones que la CPU puede ejecutar.
 
-    Registros. Definición y función.
 
-Los registros son pequeñas ubicaciones de almacenamiento de memoria de alta velocidad dentro de la CPU. Contienen datos en los que la CPU está trabajando en ese momento y facilitan un acceso rápido a los datos. Las CPU tienen varios tipos de registros, como:
 
-- Registros de uso general que contienen datos operativos
-- Registros de instrucciones que contienen la instrucción actual que se está procesando
-- Un contador de programas que contiene la dirección de memoria de la siguiente instrucción que se va a recuperar
+- Registros. Definición y función.
+
+  Los registros son pequeñas ubicaciones de almacenamiento de memoria de alta velocidad dentro de la CPU. Contienen datos en los que la CPU está trabajando en ese momento y facilitan un acceso rápido a los datos. Las CPU tienen varios tipos de registros, como:
+
+1. Registros de uso general que contienen datos operativos
+2. Registros de instrucciones que contienen la instrucción actual que se está procesando
+3. Un contador de programas que contiene la dirección de memoria de la siguiente instrucción que se va a recuperar
 
  Buses. Definición y función.
 
  Dependiendo de la arquitectura de la CPU, puede haber una unidad de interfaz de bus o una unidad de gestión de memoria independientes. Estos componentes gestionan las tareas relacionadas con la memoria, como la gestión de la interacción entre la CPU y la RAM. También gestiona la memoria caché (una unidad de memoria pequeña y rápida ubicada dentro de la CPU) y la memoria virtual que la CPU necesita para el procesamiento de datos.
+
+ ![alt text](image-2.png)
 
 [Referencia CPU](https://aws.amazon.com/es/what-is/cpu/)
 
@@ -55,6 +60,8 @@ Los registros son pequeñas ubicaciones de almacenamiento de memoria de alta vel
     - Caché: La memoria caché opera con mayor velocidad, dotando al microprocesador de un tiempo extra para acceder a los datos que se usan con más frecuencia.
     - Principal (RAM): La memoria RAM es una memoria volátil, ya que pierde información en la falta de energía eléctrica. Mientras, la memoria no volátil retendrá la información almacenada incluso si no recibe corriente eléctrica constantemente, como es el caso de la memoria ROM. Se usa para almacenamientos a largo plazo y, por tanto, se usa en memorias secundarias, terciarias y fuera de línea.
     - Secundaria (Disco duro y unidades externas de almacenamiento): La memoria secundaria o de almacenamiento masivo tiene mayor capacidad que la memoria primaria, pero es mucho más lenta. El tiempo necesario para acceder a un byte de información dado almacenado en un disco duro de platos magnéticos es de unas milésimas de segundo. 
+
+![alt text](image-3.png)
 
 [Referencia Memoria](https://www.euroinnova.com/blog/que-es-la-memoria-de-la-computadora)
 
@@ -69,6 +76,8 @@ Los registros son pequeñas ubicaciones de almacenamiento de memoria de alta vel
 Los dispositivos de salida permiten al sistema informático mostrar información al usuario. Esta información puede ser en forma de texto, imágenes, audio, video o incluso comandos físicos. 
 
 Los dispositivos de entrada, por otro lado, permiten al usuario ingresar información al sistema. Estos dispositivos también pueden presentar la información en diversos formatos, como texto, imágenes, audio o video.
+
+![alt text](image-4.png)
 
 [Dispositivos In/Out](https://www.inesem.es/revistadigital/informatica-y-tics/perifericos-de-salida-y-entrada/)
 
@@ -85,11 +94,15 @@ Bus de control:
 Bus multiplexado:
 - Los buses multiplexados permiten la transmisión de múltiples señales o datos a través de un único conjunto de líneas de comunicación (las señales se transmiten de manera secuencial a través del bus utilizando técnicas de multiplexación).
 
+![alt text](image-5.png)
+
 [Referencia Buses](https://advantecnia.com/tipos-de-buses-de-comunicacion/#:~:text=Un%20bus%20de%20datos%20o,propios%20dispositivos%20hacia%20el%20ordenador.)
 
 5. GPU
 
 La unidad de procesamiento de gráficos (GPU) es un circuito electrónico que puede realizar cálculos matemáticos a alta velocidad. Algunas tareas de computación, como la renderización de gráficos, el machine learning (ML) y la edición de videos, requieren la aplicación de operaciones matemáticas similares en un conjunto de datos grande. El diseño de una GPU le permite realizar la misma operación en varios valores en paralelo. Esto vuelve más eficiente el procesamiento de muchas tareas que requieren mucha capacidad de cómputo.
+
+![alt text](image-6.png)
 
 [Referencia GPU](https://aws.amazon.com/es/what-is/gpu/)
 
@@ -100,6 +113,8 @@ Conocemos como software a un conjunto de instrucciones y procedimientos diseñad
  - Software de aplicación: Es frecuente preguntarse qué es software de aplicaciones, ya que es el tipo de software más utilizado. Se trata de paquetes informáticos que realizan tareas específicas, las cuales son ejecutadas por el usuario. Las apps del celular, navegadores o programas de diseño son algunos ejemplos.
  - Software de desarrollo: Proporcionar a los programadores herramientas como editores de texto, compiladores, enlazadores, depuradores y otras herramientas para crear código. 
 
+ ![alt text](image-7.png)
+
 [Referencia Software](https://www.epnewman.edu.pe/revista/que-es-software/)
 
 [Referencia 2](https://www.ibm.com/mx-es/topics/software-development)
@@ -109,11 +124,15 @@ Conocemos como software a un conjunto de instrucciones y procedimientos diseñad
   Durante el proceso de arranque, el sistema prueba el hardware, carga y ejecuta el sistema operativo y configura los dispositivos. Para arrancar el sistema operativo.
   La mayoría de los usuarios realizan un arranque de disco duro al iniciar el sistema para operaciones generales. El sistema encuentra toda la información necesaria para el proceso de arranque en su unidad de disco.
 
+![alt text](image-8.png)
+
 [Referencia Funcionamiento del Computador](https://www.ibm.com/docs/es/aix/7.2?topic=startup-boot-process)
 
  - ¿Qué sucede desde que ingreso un dato a través del teclado, hasta que veo el resultado de la operación en la pantalla?
 
 Cuando ingresas un dato a través del teclado, este se convierte en una señal eléctrica que es enviada al procesador de la computadora. El procesador, a través del sistema operativo, gestiona la información y realiza la operación requerida. Luego, el resultado se envía a la tarjeta gráfica (GPU), que lo convierte en señales que controlan los píxeles de la pantalla. Finalmente, ves el resultado en la pantalla. Todo este proceso ocurre rápidamente, casi de manera instantánea.
+
+![alt text](image-9.png)
 
 [Referencia Input del usuario a la maquina](https://homepage.cs.uri.edu/faculty/wolfe/book/Readings/Reading06.htm#:~:text=Input%3A%20Getting%20Data%20from%20the,motions%20to%20on%2Dscreen%20action.)
 
@@ -159,5 +178,7 @@ Es igual a 1024 Megabytes.
 
 Terabyte (TB):
 Lo componen 1024 Gigabytes. Muchas veces esta medida determina la capacidad de almacenamiento de los discos duros. 
+
+![alt text](image-10.png)
 
 [Referencia Unidades de Almacenamiento](https://edu.gcfglobal.org/es/cultura-tecnologica/medidas-de-almacenamiento-de-informacion/1/)
