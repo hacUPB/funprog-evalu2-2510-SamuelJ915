@@ -1,5 +1,17 @@
-## Tareas consignadas para la bitacora en la Actividad 2 
+## Tareas consignadas para la bitacora en la Unidad2.Actividad2 
 
+
+## Indice
+
+[Actividad1](#actividad1-para-la-bitacora)
+
+[Ejercicio 2 / Actividad 2](#ejercicio-2)
+
+[Actividad 3 y 4](#3-actividad-de-investigación-para-la-bitácora)
+
+
+
+## Actividad1. Para la bitacora 
 
 - ### Escribe un párrafo explicando, en tus propias palabras, cómo se representan los datos en una computadora. Por ejemplo, ¿cómo se ingresan números, letras, imágenes a una computadora?
 
@@ -29,7 +41,7 @@ Hay mas valores pero hasta ahora son los mas usados tanto en industria como en l
 
 George Boole fue un matematico y logico cuyo trabajo sentó las bases del álgebra booleana, un sistema lógico fundamental para el desarrollo de la informática y la electrónica digital. Su enfoque matemático para representar la lógica permitió la creación de circuitos electrónicos y la programación computacional tal como la conocemos hoy.
 
-- ## Ejercicio 2
+## Ejercicio 2
 Ahora es tu turno de intentar usar el método. Te voy a proponer varios números binarios y tú vas a convertirlos a decimales utilizando la `tabla 3`. Recuerda que el subíndice 2 significa que el número es binario (base 2)
 
 - $1010101010_2$
@@ -39,3 +51,51 @@ Ahora es tu turno de intentar usar el método. Te voy a proponer varios números
 - $111000_2$
 
 ![alt text](image.png)
+
+
+## **3. Actividad de investigación (para la bitácora)**
+
+Investiga los diferentes tipos de datos que se utilizan en varios lenguajes de programación (por ejemplo, C, Java, Python). Ten en cuenta cómo cada lenguaje define los números enteros, los decimales (o flotantes), las letras del alfabeto, las cadenas de texto, valores booleanos, entre otros. Investiga qué nombres se asignan y qué abreviaciones se utilizan en cada lenguaje.
+
+- Para C 
+
+![alt text](image-1.png)
+
+|Tipo|Tamaño en bits|Rango|
+|---|---|---|
+|char|8|-127 a 127|
+|unsigned char|8|0 a 255|
+|signed char|8|0 a 255|
+|int|16|-32767 a 32767|
+|unsigned int|16|0 a 65535|
+|signed int|16|-32767 a 32767|
+|short int|16|-32767 a 32767|
+|unsigned short int|16|0 a 65535|
+|float|32|6 digitos de precision|
+|double|64|10 digitos de precision|
+|long double|64|10 digitos de precision|
+- Para python
+
+![alt text](image-2.png)
+
+|Tipo|Tamaño en bytes|Rango|
+|---|---|---|
+|byte|1|-128 a 127|
+|short|2|-32768 a 32767|
+|int |4|-2147483648 a 2147483647|
+|long|8|-9.223.372.036.854.775.808 a -9.223.372.036.854.775.807|
+|float|4|![alt text](image-5.png)|
+|double|8|![alt text](image-6.png)|
+|char|2|![alt text](image-7.png)|
+|boolean|1 bit|Verdadero o Falso|
+
+
+- Para Java
+
+![alt text](image-3.png)
+
+- Para C++
+
+![alt text](image-4.png)
+
+## Actividad 4 
