@@ -62,7 +62,7 @@ Ahora es tu turno. Vas a convertir los siguientes  números decimales a binarios
 - $354_{10}$
 - $187_{10}$
 
-![alt text](image-8.png)
+![alt text](image-11.png)
 ![alt text](image-9.png)
 
 ## **3. Actividad de investigación (para la bitácora)**
@@ -132,4 +132,4 @@ Con la información recolectada, organiza los datos en una tabla que incluya:
 ### Actividad 5.  Ejercicio de cálculo de espacio en memoria.
 
 
-![alt text](image-8.png)
+![alt text](image-10.png)
