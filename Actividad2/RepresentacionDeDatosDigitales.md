@@ -7,9 +7,11 @@
 
 [Ejercicio 2 / Actividad 2](#ejercicio-2)
 
-[Actividad 3 y 4](#3-actividad-de-investigación-para-la-bitácora)
+[Actividad 3](#3-actividad-de-investigación-para-la-bitácora)
 
+[Actividad 4, Organización de resultados](#actividad-4-organización-de-resultados)
 
+[Actividad 5, Ejercicio de cálculo de espacio en memoria](#actividad-5--ejercicio-de-cálculo-de-espacio-en-memoria)
 
 ## Actividad1. Para la bitacora 
 
@@ -52,6 +54,16 @@ Ahora es tu turno de intentar usar el método. Te voy a proponer varios números
 
 ![alt text](image.png)
 
+Ahora es tu turno. Vas a convertir los siguientes  números decimales a binarios. Recuerda que el subíndice 10 significa que el número es decimal (`base 10`)
+
+- $127_{10}$
+- $246_{10}$
+- $1025_{10}$
+- $354_{10}$
+- $187_{10}$
+
+![alt text](image-8.png)
+![alt text](image-9.png)
 
 ## **3. Actividad de investigación (para la bitácora)**
 
@@ -98,4 +110,26 @@ Investiga los diferentes tipos de datos que se utilizan en varios lenguajes de p
 
 ![alt text](image-4.png)
 
-## Actividad 4 
+## Actividad 4 **Organización de resultados**
+
+Con la información recolectada, organiza los datos en una tabla que incluya:
+
+- **Nombre de la variable**
+- **Abreviación (si existe)**
+- **Características principales** (rango, tipo de valor, etc.)
+
+|Nombre de la variable|Abreviación|Características|
+|-------|-------|-------|
+|integer|int|Guarda numeros enteros y positivos, variable numerica, permite almacenar caracteres numericos|
+|Flotante|Float|Concentra muchos numeros, representa numeros reales|
+|Doble precisión|Double|Contiene números de punto flotante de precisión doble IEEE de 64 bits (8 bytes) con signo cuyo valor oscila entre -1,79769313486231570E+308 y -4,94065645841246544E-324 para valores negativos y entre 4,94065645841246544E-324 y 1,79769313486231570E+308 para valores positivos. Los números de precisión doble almacenan una aproximación de un número real.|
+|Carácter|char|Se encargan de almacenar aquellas variables cuyo identificador es un solo caracter.|
+|Cadena|String|Aquellas variables que se encargan de almacenar palabras, así como una cadena de texto.|
+|Arreglo|Array|Es una manera de poder guardar datos del mismo tipo o clase (Enteros, carácteres, booleanos, etc.).|
+|Booleana|Bool|Permiten almacenar uno de los dos estados lógicos (verdadero o falso).|
+|Larga|Long|Esta variable se encarga de almacenar todos aquellos datos que sean numéricos con muchos caracteres numéricos.|
+
+### Actividad 5.  Ejercicio de cálculo de espacio en memoria.
+
+
+![alt text](image-8.png)
