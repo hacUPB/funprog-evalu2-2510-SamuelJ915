@@ -52,7 +52,12 @@ Analicemos el siguiente problema y representemos su solución mediante un algori
 ![alt text](image-8.png)
 
 ## Ejercicios 
-
+1. Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
+![alt text](image-10.png)
+2. Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
+![alt text](image-11.png)
+3. El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65; de 50 a 99 alumnos, el costo es de $70, de 30 a 49, de $95, y si son menos de 30, el costo de la renta del autobús es de $4000, sin importar el número de alumnos.
+![alt text](image-9.png)
 
 ## Consigna tus respuestas en la bitacora
 
