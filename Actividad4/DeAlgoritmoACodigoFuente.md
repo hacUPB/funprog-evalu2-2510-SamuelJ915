@@ -95,7 +95,7 @@ int main() {
     // ingreso la formula de distancia enter 2 puntos, sqrt() es para raíces y pow(,x) para potencias
     double distancia = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
-    // Display the calculated distance
+    // Muestro la distancia 
     printf("La distancia entre el primer punto (%.2f, %.2f) y el segundo (%.2f, %.2f) es: %.2f\n", x1, y1, x2, y2, distancia);
 
     return 0;
