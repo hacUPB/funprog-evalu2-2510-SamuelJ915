@@ -76,7 +76,8 @@ int main() {
 3. **Comenta** tu código para explicar los pasos principales.
 
 ### Primer Reto
-```#include <stdio.h>
+```
+#include <stdio.h>
 #include <math.h>
 
 int main() {
@@ -101,7 +102,8 @@ int main() {
 }
 ```
 ### Segundo Reto
-```#include <stdio.h>
+```
+#include <stdio.h>
 
 int main() {
     // Definino la constante para la conversión de metros a pulgadas
@@ -124,7 +126,8 @@ int main() {
 }
 ```
 ### Tercer Reto
-```#include <stdio.h>
+```
+#include <stdio.h>
 #include <math.h>  // Sin esta no me deja usar la función sqrt()
 
 int main() {
@@ -148,7 +151,8 @@ int main() {
 }
 ```
 ### Cuarto Reto
-```#include <stdio.h>
+```
+#include <stdio.h>
 
 int main() {
     // Declaro las variables para la fecha de nacimiento
@@ -201,7 +205,8 @@ int main() {
 }
 ```
 ### Quinto Reto
-``` #include <stdio.h>
+``` 
+#include <stdio.h>
 
 int main() {
     int horas_trabajadas;
